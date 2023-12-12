@@ -1,19 +1,19 @@
 public class Triangolo extends Forma{
 
-    private TipoForma tipoForma;
+    private TipoFormaEnum tipoForma;
     private int base;
     private int altezza;
 
 
     public Triangolo() {
-        this.tipoForma = TipoForma.TRIANGOLO;
+        this.tipoForma = TipoFormaEnum.TRIANGOLO;
     }
 
-    public TipoForma getTipoForma(){
+    public TipoFormaEnum getTipoForma(){
         return this.tipoForma;
     }
 
-    public void setTipoForma(TipoForma tipoForma){
+    public void setTipoForma(TipoFormaEnum tipoForma){
         this.tipoForma = tipoForma;
     }
 

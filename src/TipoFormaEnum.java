@@ -1,4 +1,4 @@
-public enum TipoForma {
+public enum TipoFormaEnum {
 
     RETTANGOLO("Rettangolo",4),
     TRIANGOLO("Triangolo", 3);
@@ -6,7 +6,7 @@ public enum TipoForma {
     private String nome;
     private int lati;
 
-    TipoForma(String nome, int lati){
+    TipoFormaEnum(String nome, int lati){
         this.nome = nome;
         this.lati = lati;
     }

@@ -1,19 +1,19 @@
 public class Rettangolo extends Forma{
 
-    private TipoForma tipoForma;
+    private TipoFormaEnum tipoForma;
     private int base;
     private int altezza;
 
 
     public Rettangolo() {
-        this.tipoForma = TipoForma.RETTANGOLO;
+        this.tipoForma = TipoFormaEnum.RETTANGOLO;
     }
 
-    public TipoForma getTipoForma(){
+    public TipoFormaEnum getTipoForma(){
         return this.tipoForma;
     }
 
-    public void setTipoForma(TipoForma tipoForma){
+    public void setTipoForma(TipoFormaEnum tipoForma){
         this.tipoForma = tipoForma;
     }
 
